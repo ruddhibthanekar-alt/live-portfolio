@@ -1,31 +1,52 @@
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div>
-      <h1>Hi, I'm Ruddhi Thanekar 👋</h1>
-      <h2>Full Stack Developer</h2>
+    <div className="portfolio">
 
-      <p>
-        Welcome to my portfolio website.
-      </p>
+      {/* Navbar */}
+      <Navbar />  
 
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>MongoDB</li>
-      </ul>
 
-      <h3>Projects</h3>
+      {/* Hero Section */}
+      <Hero />
 
-      <ul>
-        <li>AI Resume Builder</li>
-        <li>Dental Clinic Website</li>
-      </ul>
+
+
+      {/* About */}
+      <About />
+
+
+
+      {/* Skills */}
+      <Skills />
+
+
+
+
+      {/* Projects */}
+      <Projects />
+
+
+
+      {/* Contact */}
+      <Contact />
+
+
+
+    <Footer />
+
+
     </div>
   );
 }
+
 
 export default App;
