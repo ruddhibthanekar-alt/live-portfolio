@@ -6,7 +6,7 @@ function Projects() {
       description:
         "An AI-powered resume builder that helps users create professional resumes with modern templates.",
       tech:
-        "React | Node.js | MongoDB",
+        "React | CSS | OpenAI",
       github:
         "https://github.com/ruddhibthanekar-alt/AI-resume-builder"
     },

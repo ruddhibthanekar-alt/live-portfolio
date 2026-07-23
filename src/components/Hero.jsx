@@ -21,7 +21,7 @@ function Hero() {
             <button>View Projects</button>
           </a>
 
-          <a href="/nreact.pdf" download>
+          <a href="/mainresume.pdf" download>
             <button className="outline">
               <FaDownload /> Download Resume
             </button>

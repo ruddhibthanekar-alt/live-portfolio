@@ -11,42 +11,22 @@ function App() {
   return (
     <div className="portfolio">
 
-      {/* Navbar */}
-      <Navbar />  
+      <Navbar />
 
-
-      {/* Hero Section */}
       <Hero />
 
-
-
-      {/* About */}
       <About />
 
-
-
-      {/* Skills */}
       <Skills />
 
-
-
-
-      {/* Projects */}
       <Projects />
 
-
-
-      {/* Contact */}
       <Contact />
 
-
-
-    <Footer />
-
+      <Footer />
 
     </div>
   );
 }
-
 
 export default App;
